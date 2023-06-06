@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-login/bootstrap.css">
+    <link rel="shortcut icon" href="favicons/login-io.ico" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+
+<body>    
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Cadastro do Usuário</a>
+        </nav>
+    </header>  
+
+        <div class="container mt-5">
+            <h1>Seja bem-vindo!</h1>
+            <p>Para contiuarmos, é necessário preencher os dados abaixo.</p>
+
+
+            <main>
+                <form>
+                                <input type="text" placeholder="Nome completo" class="form-control">
+                                <input type="email" placeholder="E-mail" class="form-control mt-1">
+                                <input type="text" placeholder="Celular" class="form-control mt-1">
+                                    <div class="d-flex form-group mt-2 mb-1">
+                                        <input type="radio" name="genero"> Masculino<br>
+                                        <input type="radio" name="genero"> Feminino<br>
+                                        <input type="radio" name="genero"> Outro<br>
+                                    </div>
+
+                                    <select class="form-control mt-1">
+                                        <option disabled="" selected="">Informe seu Estado</option>
+                                        <option>Acre</option>
+                                        <option>Alagoas</option>
+                                        <option>Amapá</option>
+                                        <option>Amazonas</option>
+                                        <option>Bahia</option>
+                                        <option>Ceará</option>
+                                        <option>Distrito Federal</option>
+                                        <option>Espírito Santo</option>
+                                        <option>Goiás</option>
+                                        <option>Maranhão</option>
+                                        <option>Mato Grosso</option>
+                                        <option>Mato Grosso do Sul</option>
+                                        <option>Minas Gerais</option>
+                                        <option>Pará</option>
+                                        <option>Paraíba</option>
+                                        <option>Paraná</option>
+                                        <option>Pernambuco</option>
+                                        <option>Piauí</option>
+                                        <option>Rio de Janeiro</option>
+                                        <option>Rio Grande do Norte</option>
+                                        <option>Rio Grande do Sul</option>
+                                        <option>Rondônia</option>
+                                        <option>Roraima</option>
+                                        <option>Santa Catarina</option>
+                                        <option>São Paulo</option>
+                                        <option>Sergipe</option>
+                                        <option>Tocantins</option>
+                                    </select>
+
+                                        <input type="text" placeholder="Cidade" class="form-control mt-1">
+                                        <input type="date" placeholder="Data de nascimento" class="form-control mt-1">
+
+                                        <select class="form-control mt-1">
+                                            <option disabled="" selected="">Estado Civil</option>
+                                            <option>Solteiro</option>
+                                            <option>Casado</option>
+                                            <option>Viúvo</option>
+                                            <option>Outro</option>
+                                        </select>
+                                        <textarea class="form-control mt-1" placeholder="Conte-nos um pouco sobre você"></textarea>
+
+                                        <input type="checkbox" name="termouso" checked>
+                                        <label for="termouso">Concordo com os termos de uso, desejo concluir e criar conta.</label>
+                                        <button class="btn btn-lg btn-block btn-primary">Criar minha conta</button>
+                </form>
+            </main>
+    </div>
+              
+ </body>
+</html>
